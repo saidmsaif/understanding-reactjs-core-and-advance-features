@@ -14,7 +14,7 @@
 	},
 	"scripts": {
 		"start": "craco start",
-		"build:css": "tailwind build ./src/css/tailwind.css -o ./src/css/style.css",
+		"build:css": "tailwindcss build ./src/css/tailwind.css -o ./src/css/style.css",
 		"test": "craco test",
 		"eject": "craco eject"
 	},
